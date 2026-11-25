@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Code</title>
+</head>
+<body style="font-family: Arial, sans-serif; max-width: 720px; margin: 40px auto;">
+  <h1>Code</h1>
+  <p>Placeholder page — source code scripts (such as <code>lab/w09.py</code>) are stored in this repository.</p>
+  <p><a href="index.html">&larr; Back to Home</a></p>
+</body>
+</html>
