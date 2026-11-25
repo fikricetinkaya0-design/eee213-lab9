@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EEE213 Project</title>
+</head>
+<body style="font-family: Arial, sans-serif; max-width: 720px; margin: 40px auto; line-height: 1.6;">
+  <h1>EEE213 — Project Site</h1>
+  <p>Welcome to my EEE213 course project page.</p>
+  <ul>
+    <li><a href="numerical.html">Numerical Problem</a></li>
+    <li><a href="data-model.html">Data and Model</a></li>
+    <li><a href="presentation.html">Presentation</a></li>
+    <li><a href="code.html">Code</a></li>
+  </ul>
+</body>
+</html>
