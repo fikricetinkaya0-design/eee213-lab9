@@ -2,11 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Presentation</title>
+  <title>Presentation — Method #1: Linear Regression</title>
 </head>
-<body style="font-family: Arial, sans-serif; max-width: 720px; margin: 40px auto;">
-  <h1>Presentation</h1>
-  <p>Placeholder page — presentation slides and summary will be linked here.</p>
+<body style="font-family: Arial, sans-serif; max-width: 760px; margin: 40px auto; line-height: 1.6; color: #1e293b;">
+  <h1>Week 10 Presentation — Method #1: Linear Regression</h1>
+  <p><strong>Course:</strong> EEE213 &nbsp;|&nbsp; <strong>Dataset:</strong> Combined Cycle Power Plant (80/20 split: 7,654 train / 1,914 test)</p>
+
+  <h2>Slides</h2>
+  <p>
+    <a href="EEE213_Week10_Linear_Regression.pptx" download style="display:inline-block; padding:10px 16px; background:#1d4ed8; color:#fff; text-decoration:none; border-radius:6px;">
+      Download Week 10 Slides (.pptx)
+    </a>
+  </p>
+
+  <h2>Key Results</h2>
+  <ul>
+    <li><strong>Baseline (training mean) Test MAE:</strong> 14.72 MW</li>
+    <li><strong>Single-feature AT Line Test MAE:</strong> 4.33 MW</li>
+    <li><strong>Multiple Linear Regression (AT, V, AP, RH) Test MAE:</strong> <strong>3.66 MW</strong> (75.1% error reduction, R² = 0.925)</li>
+  </ul>
+
+  <h2>Sources &amp; AI Assistance Statement</h2>
+  <ol>
+    <li>T. M. Mitchell, <em>Machine Learning</em>. New York, NY, USA: McGraw-Hill, 1997.</li>
+    <li>scikit-learn developers, "Linear Models — Ordinary Least Squares," <em>scikit-learn User Guide</em>. Available: https://scikit-learn.org/stable/modules/linear_model.html</li>
+    <li>P. Tüfekci and H. Kaya, "Combined Cycle Power Plant," UCI Machine Learning Repository, 2014, doi:10.24432/C5002N (CC BY 4.0).</li>
+  </ol>
+  <p><em>AI Statement:</em> Google Gemini was used to assist with concept clarification, drafting the scikit-learn evaluation script, and structuring the slides. All computations and metrics were executed and verified on the course CCPP dataset.</p>
+
   <p><a href="index.html">&larr; Back to Home</a></p>
 </body>
 </html>
